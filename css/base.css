@@ -1,0 +1,344 @@
+/* Updated CSS - Version 2.0 */
+:root{
+  --bg:#91a400; 
+  --fg:#2c1810; 
+  --muted:#8b4513; 
+  --brand:#dc143c; 
+  --brand-light:#ff6b6b;
+  --brand-lighter:#ffebeb;
+  --bg-secondary:#f8f9fa;
+  --text-muted:#6c757d;
+  --gold:#ffd700;
+  --red-flag:#da020e;
+  --yellow-star:#ffff00;
+  --card:#fff8dc;
+  --card-hover:#ffefd5;
+  --gradient-red: linear-gradient(135deg, #dc143c 0%, #8b0000 100%);
+  --gradient-gold: linear-gradient(135deg, #ffd700 0%, #b8860b 100%);
+  --radius:12px;
+  --shadow: 0 4px 15px rgba(220, 20, 60, 0.2);
+  --text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+*{
+  box-sizing:border-box;
+} 
+
+html,body{
+  margin:0;
+  padding:0;
+  color:var(--fg);
+  font:16px/1.6 system-ui;
+  
+  /* Revolutionary Vietnamese background - CLEARLY VISIBLE */
+  background: 
+    /* Visible golden stars pattern */
+    radial-gradient(circle at 25% 30%, rgba(255, 215, 0, 0.4) 4px, transparent 4px),
+    radial-gradient(circle at 75% 60%, rgba(220, 20, 60, 0.25) 3px, transparent 3px),
+    radial-gradient(circle at 50% 80%, rgba(255, 215, 0, 0.2) 2px, transparent 2px),
+    
+    /* Strong patriotic red gradient base */
+    linear-gradient(135deg, 
+      #ffe4e4 0%, 
+      #ffebeb 20%,
+      #fff0e6 40%, 
+      #ffebeb 60%,
+      #ffe4e4 80%,
+      #ffeaea 100%
+    ) !important;
+    
+  background-size: 80px 80px, 120px 120px, 160px 160px, 100% 100%;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+a{
+  color:var(--brand);
+  text-decoration:none;
+}
+
+a:hover{
+  text-decoration:underline;
+}
+
+.container{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+  position: relative;
+}
+
+/* Decorative elements for main content */
+.container::before {
+  content: '';
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  right: -15px;
+  bottom: -15px;
+  background: 
+    radial-gradient(circle at 10% 10%, rgba(255, 215, 0, 0.12) 25px, transparent 25px),
+    radial-gradient(circle at 90% 90%, rgba(220, 20, 60, 0.08) 20px, transparent 20px),
+    radial-gradient(circle at 50% 50%, rgba(255, 215, 0, 0.06) 30px, transparent 30px);
+  border-radius: 25px;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.card{
+  background: linear-gradient(145deg, #ffffff 0%, #fffbf7 100%);
+  border-radius:var(--radius);
+  padding:24px;
+  box-shadow: 
+    0 12px 40px rgba(0, 0, 0, 0.15),
+    0 4px 16px rgba(220, 20, 60, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  border: 3px solid var(--gold);
+  transition: all 0.3s ease;
+  position: relative;
+  backdrop-filter: blur(15px);
+}
+
+.card:hover{
+  background: linear-gradient(145deg, #fff8e1 0%, #fff3d4 100%);
+  transform: translateY(-12px) scale(1.02);
+  box-shadow: 
+    0 20px 50px rgba(0, 0, 0, 0.2),
+    0 8px 20px rgba(255, 215, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 1);
+  border-color: var(--brand);
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--radius);
+  background: linear-gradient(45deg, 
+    transparent, 
+    rgba(255, 215, 0, 0.08), 
+    transparent,
+    rgba(220, 20, 60, 0.05),
+    transparent
+  );
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.card:hover::before {
+  background: linear-gradient(45deg, 
+    rgba(255, 215, 0, 0.1), 
+    rgba(220, 20, 60, 0.08), 
+    rgba(255, 215, 0, 0.12),
+    rgba(220, 20, 60, 0.06),
+    rgba(255, 215, 0, 0.1)
+  );
+}
+
+.btn{
+  display:inline-block;
+  padding:12px 24px;
+  border-radius:var(--radius);
+  background:var(--gradient-red);
+  color:#fff;
+  border:none;
+  cursor:pointer;
+  font-weight:600;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  box-shadow:var(--shadow);
+  transition:all 0.3s ease;
+  position:relative;
+  overflow:hidden;
+}
+
+.btn:hover{
+  transform:translateY(-2px);
+  box-shadow: 0 6px 20px rgba(220, 20, 60, 0.4);
+  text-decoration:none;
+}
+
+.btn:before{
+  content:'';
+  position:absolute;
+  top:0;
+  left:-100%;
+  width:100%;
+  height:100%;
+  background:linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  transition:left 0.5s;
+}
+
+.btn:hover:before{
+  left:100%;
+}
+
+h1,h2,h3{
+  line-height:1.2;
+}
+
+.nav a.active{
+  background:var(--gold);
+  color:var(--red-flag);
+  font-weight:700;
+  box-shadow:0 2px 8px rgba(0,0,0,0.3);
+}
+
+.muted{
+  color:var(--muted);
+}
+
+.grid2{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:18px;
+}
+
+@media (max-width:900px){
+  .grid2{
+    grid-template-columns:1fr;
+  }
+}
+
+/* Coze Chat Widget Styling */
+.coze-web-sdk-chat-button {
+  background: var(--gradient-red) !important;
+  border: 3px solid var(--gold) !important;
+  box-shadow: var(--shadow) !important;
+  border-radius: var(--radius) !important;
+  transition: all 0.3s ease !important;
+}
+
+.coze-web-sdk-chat-button:hover {
+  transform: translateY(-2px) scale(1.05) !important;
+  box-shadow: 0 8px 25px rgba(220, 20, 60, 0.4) !important;
+  border-color: var(--yellow-star) !important;
+}
+
+.coze-web-sdk-chat-button::before {
+  content: '🇻🇳' !important;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  font-size: 16px;
+  z-index: 10;
+}
+
+/* Chat Window Styling */
+.coze-web-sdk-chat-window {
+  border: 3px solid var(--gold) !important;
+  border-radius: var(--radius) !important;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3), 0 8px 20px rgba(220, 20, 60, 0.2) !important;
+  overflow: hidden !important;
+}
+
+.coze-web-sdk-chat-header {
+  background: var(--gradient-red) !important;
+  color: white !important;
+  padding: 16px !important;
+  border-bottom: 2px solid var(--gold) !important;
+  font-weight: 600 !important;
+}
+
+.coze-web-sdk-chat-header::before {
+  content: '🤖 ' !important;
+}
+
+.coze-web-sdk-chat-messages {
+  background: 
+    radial-gradient(circle at 25% 30%, rgba(255, 215, 0, 0.05) 4px, transparent 4px),
+    radial-gradient(circle at 75% 60%, rgba(220, 20, 60, 0.03) 3px, transparent 3px),
+    linear-gradient(145deg, #ffffff 0%, #fffbf7 100%) !important;
+  background-size: 80px 80px, 120px 120px, 100% 100% !important;
+}
+
+.coze-web-sdk-user-message {
+  background: var(--gradient-red) !important;
+  color: white !important;
+  border-radius: 18px 18px 6px 18px !important;
+  padding: 12px 16px !important;
+  margin: 8px !important;
+  box-shadow: 0 2px 8px rgba(220, 20, 60, 0.3) !important;
+  font-weight: 500 !important;
+}
+
+.coze-web-sdk-bot-message {
+  background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%) !important;
+  color: var(--fg) !important;
+  border: 2px solid var(--gold) !important;
+  border-radius: 18px 18px 18px 6px !important;
+  padding: 12px 16px !important;
+  margin: 8px !important;
+  box-shadow: 0 2px 8px rgba(255, 215, 0, 0.2) !important;
+  line-height: 1.6 !important;
+}
+
+.coze-web-sdk-input-area {
+  background: var(--bg-secondary) !important;
+  border-top: 2px solid var(--gold) !important;
+  padding: 12px !important;
+}
+
+.coze-web-sdk-input {
+  border: 2px solid var(--gold) !important;
+  border-radius: var(--radius) !important;
+  padding: 12px 16px !important;
+  font-family: inherit !important;
+  font-size: 14px !important;
+  transition: all 0.3s ease !important;
+}
+
+.coze-web-sdk-input:focus {
+  border-color: var(--brand) !important;
+  box-shadow: 0 0 0 3px rgba(220, 20, 60, 0.1) !important;
+  outline: none !important;
+}
+
+.coze-web-sdk-send-button {
+  background: var(--gradient-red) !important;
+  border: 2px solid var(--gold) !important;
+  border-radius: var(--radius) !important;
+  color: white !important;
+  padding: 10px 20px !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+}
+
+.coze-web-sdk-send-button:hover {
+  transform: translateY(-1px) !important;
+  box-shadow: 0 4px 15px rgba(220, 20, 60, 0.4) !important;
+  border-color: var(--yellow-star) !important;
+}
+
+/* Chat Widget Animation */
+@keyframes coze-pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.coze-web-sdk-chat-button {
+  animation: coze-pulse 2s infinite ease-in-out !important;
+}
+
+/* Responsive adjustments for chat */
+@media (max-width: 768px) {
+  .coze-web-sdk-chat-window {
+    width: 100vw !important;
+    height: 100vh !important;
+    border-radius: 0 !important;
+    border: none !important;
+  }
+  
+  .coze-web-sdk-chat-button {
+    width: 60px !important;
+    height: 60px !important;
+    bottom: 20px !important;
+    right: 20px !important;
+  }
+}

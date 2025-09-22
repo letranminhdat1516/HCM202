@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8"/>
+  <title>HCM202+ | Tình huống & Cam kết</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <link rel="stylesheet" href="../css/base.css"/>
+  <link rel="stylesheet" href="../css/layout.css"/>
+  <link rel="stylesheet" href="../css/cases.css"/>
+</head>
+<body>
+  <header data-include></header>
+
+  <main class="container">
+    <h1>🧭 Tình huống thực tế & Cam kết đạo đức</h1>
+    
+    <div class="grid2">
+      <section class="card">
+        <h3>📋 Chọn tình huống</h3>
+        <input id="search" placeholder="Tìm kiếm theo từ khóa..." />
+        <div id="case-list"></div>
+      </section>
+      
+      <section class="card">
+        <h3>🔍 Phân tích & gợi ý hành động</h3>
+        <div id="case-detail"><em>Hãy chọn một tình huống bên trái để xem phân tích chi tiết...</em></div>
+        
+        <hr style="margin: 1.5rem 0;"/>
+        
+        <h3>✍️ Cam kết đạo đức cá nhân</h3>
+        <form id="commit-form">
+          <input name="nickname" placeholder="Tên/Nickname (tùy chọn)" />
+          <input name="statement" maxlength="160" placeholder="Câu cam kết của bạn (≤160 ký tự)" required/>
+          <button type="submit" class="btn">Gửi cam kết</button>
+        </form>
+        
+        <div id="commit-list" style="margin-top:12px"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer data-include></footer>
+  <script src="../js/include.js"></script>
+  <script src="../js/nav-active.js"></script>
+  <script src="../js/storage.js"></script>
+  <script src="../js/cases.js"></script>
+  <script src="../js/coze-chat.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8"/>
+  <title>Test Background</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 50px;
+      font-family: system-ui;
+      
+      /* Test background - CLEARLY VISIBLE VERSION */
+      background: 
+        radial-gradient(circle at 25% 30%, rgba(255, 215, 0, 0.4) 4px, transparent 4px),
+        radial-gradient(circle at 75% 60%, rgba(220, 20, 60, 0.25) 3px, transparent 3px),
+        radial-gradient(circle at 50% 80%, rgba(255, 215, 0, 0.2) 2px, transparent 2px),
+        linear-gradient(135deg, 
+          #ffe4e4 0%, 
+          #ffebeb 20%,
+          #fff0e6 40%, 
+          #ffebeb 60%,
+          #ffe4e4 80%,
+          #ffeaea 100%
+        );
+      background-size: 80px 80px, 120px 120px, 160px 160px, 100% 100%;
+      background-attachment: fixed;
+      min-height: 100vh;
+    }
+    
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>🇻🇳 Test Background Pattern</h1>
+    <p>Nếu bạn nhìn thấy những chấm vàng và đỏ nhẹ trên nền, thì background đã hoạt động!</p>
+    <p>Background bao gồm:</p>
+    <ul style="text-align: left;">
+      <li>🌟 Chấm vàng nhẹ (rgba(255, 215, 0, 0.15))</li>
+      <li>🔴 Chấm đỏ nhẹ (rgba(220, 20, 60, 0.12))</li>
+      <li>🎨 Gradient ấm áp từ #fff5f5 đến #fff8dc</li>
+    </ul>
+  </div>
+</body>
+</html>

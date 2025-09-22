@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8"/>
+  <title>HCM202+ | Chatbot AI</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <link rel="stylesheet" href="../css/base.css"/>
+  <link rel="stylesheet" href="../css/layout.css"/>
+  <link rel="stylesheet" href="../css/chat.css"/>
+</head>
+<body>
+  <header data-include></header>
+
+  <main class="container">
+    <h1>🤖 Chatbot AI – Hỏi đáp thông minh</h1>
+    
+    <!-- Giới thiệu về Coze AI -->
+    <section class="coze-intro card">
+      <div class="intro-header">
+        <h2>Giới thiệu về Coze AI</h2>
+        <p class="intro-subtitle">Trợ lý ảo thông minh chuyên về Tư tưởng Hồ Chí Minh</p>
+      </div>
+      
+      <div class="intro-content">
+        <div class="intro-section">
+          <h3>Coze AI là gì?</h3>
+          <p><strong>Coze AI</strong> là một nền tảng chatbot thông minh được phát triển bởi ByteDance, cho phép tạo ra các trợ lý ảo có khả năng trò chuyện tự nhiên và cung cấp thông tin chính xác dựa trên dữ liệu được huấn luyện.</p>
+        </div>
+
+        <div class="intro-section">
+          <h3>Mục đích sử dụng tại HCM202+</h3>
+          <ul class="purpose-list">
+            <li><strong>Hỗ trợ học tập:</strong> Giải đáp các câu hỏi về tư tưởng, đạo đức và triết lý của Chủ tịch Hồ Chí Minh</li>
+            <li><strong>Tìm kiếm thông tin:</strong> Nhanh chóng tra cứu thông tin từ Hồ Chí Minh Toàn tập và các tài liệu chính thống</li>
+            <li><strong>Phân tích và giải thích:</strong> Giúp hiểu sâu hơn về các khái niệm, nguyên lý trong tư tưởng HCM</li>
+            <li><strong>Ứng dụng thực tiễn:</strong> Liên hệ tư tưởng HCM với các vấn đề hiện đại</li>
+          </ul>
+        </div>
+
+        <div class="intro-section role-section">
+          <h3>Vai trò của AI Assistant</h3>
+          <div class="role-card">
+            <h4>Vai trò</h4>
+            <p>Bạn là một trợ lý ảo chuyên cung cấp thông tin chi tiết và chính xác về <strong>Tư Tưởng Hồ Chí Minh</strong> dựa trên cơ sở dữ liệu hiện có và các nguồn thông tin đáng tin cậy khác.</p>
+          </div>
+
+          <div class="skills-card">
+            <h4>Kỹ năng</h4>
+            <div class="skill-item">
+              <h5>Trả lời câu hỏi về Tư Tưởng HCM</h5>
+              <ul>
+                <li>Tìm kiếm thông tin từ cơ sở dữ liệu và nguồn trực tuyến đáng tin cậy</li>
+                <li>Thông báo rõ ràng khi thông tin không có sẵn</li>
+                <li>Cung cấp trích dẫn cụ thể từ Hồ Chí Minh Toàn tập</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="constraints-card">
+            <h4>Ràng buộc</h4>
+            <ul>
+              <li>Chỉ trả lời các câu hỏi liên quan đến Tư Tưởng Hồ Chí Minh</li>
+              <li>Chỉ rõ khi thông tin không có sẵn trong cơ sở dữ liệu</li>
+              <li>Đảm bảo tính chính xác và trung thực của thông tin</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="intro-section examples-section">
+          <h3>Ví dụ câu hỏi bạn có thể hỏi</h3>
+          <div class="examples-grid">
+            <div class="example-item">
+              <div class="example-question">"Theo Hồ Chí Minh, đạo đức có vai trò như thế nào?"</div>
+              <div class="example-answer">AI sẽ trả lời dựa trên trích dẫn từ HCM Toàn tập về quan niệm "Đạo đức là gốc"</div>
+            </div>
+            
+            <div class="example-item">
+              <div class="example-question">"Tư tưởng về văn hóa của Bác Hồ là gì?"</div>
+              <div class="example-answer">AI sẽ giải thích về văn hóa "Dân tộc - Khoa học - Đại chúng"</div>
+            </div>
+            
+            <div class="example-item">
+              <div class="example-question">"Làm thế nào để áp dụng tư tưởng HCM trong thời đại hiện tại?"</div>
+              <div class="example-answer">AI sẽ phân tích và đưa ra hướng dẫn cụ thể</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="chat-section">
+      <h2>Bắt đầu trò chuyện</h2>
+      <p class="muted">Click vào nút chat ở góc dưới bên phải để bắt đầu hỏi đáp với AI Assistant.</p>
+      <div id="coze-area" class="card chat-placeholder">
+        <div class="placeholder-content">
+          <div class="ai-indicator">AI</div>
+          <h3>AI Assistant đã sẵn sàng</h3>
+          <p>Tìm nút chat ở góc phải dưới màn hình để bắt đầu</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer data-include></footer>
+  <script src="../js/include.js"></script>
+  <script src="../js/nav-active.js"></script>
+  <script src="../js/chat.js"></script>
+  <script src="../js/coze-chat.js"></script>
+</body>
+</html>

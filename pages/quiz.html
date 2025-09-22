@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8"/>
+  <title>HCM202+ | Quiz</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <link rel="stylesheet" href="../css/base.css"/>
+  <link rel="stylesheet" href="../css/layout.css"/>
+  <link rel="stylesheet" href="../css/quiz.css"/>
+</head>
+<body>
+  <header data-include></header>
+
+  <main class="container">
+    <!-- Quiz Welcome Screen -->
+    <div id="welcome-screen" class="quiz-welcome">
+      <div class="floating-elements">
+        <div class="floating-shape shape-1">🎯</div>
+        <div class="floating-shape shape-2">📚</div>
+        <div class="floating-shape shape-3">🌟</div>
+        <div class="floating-shape shape-4">💡</div>
+      </div>
+      <div class="welcome-content">
+        <div class="title-container">
+          <div class="quiz-icon">🎓</div>
+          <h1 class="quiz-title">Quiz Tư tưởng Hồ Chí Minh</h1>
+          <div class="title-underline"></div>
+        </div>
+        <p class="quiz-subtitle">Kiểm tra kiến thức của bạn về tư tưởng, đạo đức và triết lý của Chủ tịch Hồ Chí Minh</p>
+        <div class="quiz-stats">
+          <div class="stat-item">
+            <span class="stat-number">50</span>
+            <span class="stat-label">Câu hỏi</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">20</span>
+            <span class="stat-label">Giây/câu</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">7</span>
+            <span class="stat-label">Chủ đề</span>
+          </div>
+        </div>
+        
+        <div class="quiz-setup">
+          <div class="setup-card">
+            <div class="setup-header">
+              <div class="setup-icon">⚙️</div>
+              <h3>Thiết lập Quiz</h3>
+              <div class="difficulty-indicator">
+                <span class="indicator-dot easy"></span>
+                <span class="indicator-dot medium active"></span>
+                <span class="indicator-dot hard"></span>
+              </div>
+            </div>
+            <form id="quiz-form">
+              <div class="form-grid">
+                <div class="form-group">
+                  <label>
+                    <span class="label-icon">📊</span>
+                    Số câu hỏi:
+                  </label>
+                  <select name="amount" class="kahoot-select">
+                    <option value="5">🔸 5 câu (Nhanh)</option>
+                    <option value="10" selected>🔹 10 câu (Chuẩn)</option>
+                    <option value="15">🔶 15 câu (Đầy đủ)</option>
+                    <option value="20">🔺 20 câu (Thử thách)</option>
+                  </select>
+                </div>
+                
+                <div class="form-group">
+                  <label>
+                    <span class="label-icon">🎯</span>
+                    Độ khó:
+                  </label>
+                  <select name="difficulty" class="kahoot-select">
+                    <option value="easy">🟢 Dễ (Cơ bản)</option>
+                    <option value="medium" selected>🟡 Trung bình (Khuyến nghị)</option>
+                    <option value="hard">🔴 Khó (Chuyên gia)</option>
+                  </select>
+                </div>
+                
+                <div class="form-group full-width">
+                  <label>
+                    <span class="label-icon">📋</span>
+                    Chủ đề:
+                  </label>
+                  <select name="category" class="kahoot-select">
+                    <option value="all">🌐 Tất cả chủ đề</option>
+                    <option value="dao-duc">💫 Đạo đức cách mạng</option>
+                    <option value="van-hoa">🎨 Văn hóa dân tộc</option>
+                    <option value="con-nguoi">👥 Quan điểm về con người</option>
+                    <option value="lich-su">📜 Lịch sử - Tiểu sử</option>
+                    <option value="giao-duc">📚 Giáo dục</option>
+                    <option value="quoc-te">🌍 Tinh thần quốc tế</option>
+                  </select>
+                </div>
+              </div>
+              
+              <button type="submit" class="start-quiz-btn">
+                <span class="btn-content">
+                  <span class="btn-icon">🚀</span>
+                  <span class="btn-text">Bắt đầu Quiz</span>
+                </span>
+                <div class="btn-glow"></div>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quiz Game Screen -->
+    <div id="game-screen" class="quiz-game" style="display: none;">
+      <div class="quiz-header">
+        <div class="quiz-progress">
+          <div class="progress-bar">
+            <div class="progress-fill"></div>
+          </div>
+          <span class="question-counter">Câu 1/10</span>
+        </div>
+        
+        <div class="quiz-timer">
+          <div class="timer-circle">
+            <span class="timer-text">20</span>
+          </div>
+        </div>
+        
+        <div class="quiz-score">
+          <span class="score-text">Điểm: 0</span>
+        </div>
+      </div>
+
+      <div class="question-container">
+        <h2 class="question-text"></h2>
+      </div>
+
+      <div class="answers-container">
+        <button class="answer-btn red" data-index="0">
+          <div class="answer-shape triangle"></div>
+          <span class="answer-text"></span>
+        </button>
+        
+        <button class="answer-btn blue" data-index="1">
+          <div class="answer-shape diamond"></div>
+          <span class="answer-text"></span>
+        </button>
+        
+        <button class="answer-btn yellow" data-index="2">
+          <div class="answer-shape circle"></div>
+          <span class="answer-text"></span>
+        </button>
+        
+        <button class="answer-btn green" data-index="3">
+          <div class="answer-shape square"></div>
+          <span class="answer-text"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Results Screen -->
+    <div id="results-screen" class="quiz-results" style="display: none;">
+      <div class="results-content">
+        <h1 class="results-title">Kết quả Quiz</h1>
+        <div class="final-score"></div>
+        <div class="score-breakdown"></div>
+        <div class="results-actions">
+          <button class="play-again-btn">Chơi lại</button>
+          <button class="review-btn">Xem lại đáp án</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer data-include></footer>
+  <script src="../js/include.js"></script>
+  <script src="../js/nav-active.js"></script>
+  <script src="../js/utils.js"></script>
+  <script src="../js/quiz.js"></script>
+  <script src="../js/coze-chat.js"></script>
+</body>
+</html>

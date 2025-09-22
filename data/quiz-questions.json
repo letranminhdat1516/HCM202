@@ -1,0 +1,754 @@
+[
+  {
+    "id": 1,
+    "question": "Theo Hồ Chí Minh, đạo đức giữ vị trí gì đối với người cách mạng?",
+    "answers": [
+      "Là yếu tố phụ, chỉ cần khi cần thiết",
+      "Là gốc, nền tảng của người cách mạng",
+      "Là năng lực trí tuệ cao",
+      "Là cách ứng xử trong xã hội hiện đại"
+    ],
+    "correct": 1,
+    "explanation": "Người nhấn mạnh: đạo đức là gốc của người cách mạng.",
+    "difficulty": "easy",
+    "category": "dao-duc",
+    "source": "Hồ Chí Minh Toàn tập, T.11"
+  },
+  {
+    "id": 2,
+    "question": "Ba tính chất của nền văn hóa mới theo Hồ Chí Minh là gì?",
+    "answers": [
+      "Dân tộc, Khoa học, Đại chúng",
+      "Hiện đại, Toàn cầu, Tiến bộ",
+      "Cổ điển, Bảo thủ, Truyền thống",
+      "Tư bản, Công nghiệp, Hàng hóa"
+    ],
+    "correct": 0,
+    "explanation": "Người khẳng định nền văn hóa mới phải có ba tính chất: dân tộc, khoa học, đại chúng.",
+    "difficulty": "medium",
+    "category": "van-hoa",
+    "source": "Hồ Chí Minh Toàn tập, T.4"
+  },
+  {
+    "id": 3,
+    "question": "Câu nói nào thể hiện quan điểm Hồ Chí Minh về giáo dục con người?",
+    "answers": [
+      "Tri thức là sức mạnh",
+      "Vì lợi ích mười năm trồng cây, vì lợi ích trăm năm trồng người",
+      "Thiên tài là 1% cảm hứng, 99% mồ hôi",
+      "Con người là sản phẩm của hoàn cảnh"
+    ],
+    "correct": 1,
+    "explanation": "Câu nói nổi tiếng của Hồ Chí Minh về ý nghĩa chiến lược của việc trồng người.",
+    "difficulty": "easy",
+    "category": "con-nguoi",
+    "source": "Hồ Chí Minh Toàn tập, T.7"
+  },
+  {
+    "id": 4,
+    "question": "Ý nghĩa của bốn đức Cần, Kiệm, Liêm, Chính theo Hồ Chí Minh?",
+    "answers": [
+      "Nghiêm khắc, tiết chế, trung thực, chính trực",
+      "Siêng năng, tiết kiệm, trong sạch, ngay thẳng",
+      "Cần thiết, kiệm lời, liêm sỉ, chính xác",
+      "Cần mẫn, kiên trì, liêm khiết, chính đáng"
+    ],
+    "correct": 1,
+    "explanation": "Cần: siêng năng, Kiệm: tiết kiệm, Liêm: trong sạch, Chính: ngay thẳng.",
+    "difficulty": "medium",
+    "category": "dao-duc",
+    "source": "Hồ Chí Minh Toàn tập, T.5"
+  },
+  {
+    "id": 5,
+    "question": "Mục tiêu cuối cùng của cách mạng theo Hồ Chí Minh là gì?",
+    "answers": [
+      "Xây dựng nhà nước xã hội chủ nghĩa",
+      "Đánh đổ chế độ thực dân, phong kiến",
+      "Giải phóng con người, mang lại hạnh phúc",
+      "Thống nhất đất nước"
+    ],
+    "correct": 2,
+    "explanation": "Hồ Chí Minh coi giải phóng con người, đem lại hạnh phúc là mục tiêu tối thượng.",
+    "difficulty": "medium",
+    "category": "con-nguoi",
+    "source": "Hồ Chí Minh Toàn tập, T.10"
+  },
+  {
+    "id": 6,
+    "question": "Hồ Chí Minh sinh ngày, tháng, năm nào?",
+    "answers": [
+      "3/2/1891",
+      "1/1/1890",
+      "19/5/1890",
+      "2/9/1890"
+    ],
+    "correct": 2,
+    "explanation": "Nguyễn Sinh Cung (Hồ Chí Minh) sinh ngày 19/5/1890.",
+    "difficulty": "easy",
+    "category": "tieu-su",
+    "source": "Tiểu sử Hồ Chí Minh"
+  },
+  {
+    "id": 7,
+    "question": "Đảng Cộng sản Việt Nam được thành lập năm nào?",
+    "answers": [
+      "1954",
+      "1925",
+      "1945",
+      "1930"
+    ],
+    "correct": 3,
+    "explanation": "Đảng được thành lập ngày 3/2/1930 tại Hồng Kông.",
+    "difficulty": "easy",
+    "category": "lich-su",
+    "source": "Lịch sử Đảng Cộng sản Việt Nam"
+  },
+  {
+    "id": 8,
+    "question": "Theo Hồ Chí Minh, văn hóa có vai trò gì?",
+    "answers": [
+      "Trang trí cho xã hội",
+      "Phương tiện để cạnh tranh",
+      "Soi đường cho quốc dân đi",
+      "Công cụ giải trí"
+    ],
+    "correct": 2,
+    "explanation": "Người khẳng định: 'Văn hóa soi đường cho quốc dân đi'.",
+    "difficulty": "medium",
+    "category": "van-hoa",
+    "source": "Hồ Chí Minh Toàn tập"
+  },
+  {
+    "id": 9,
+    "question": "Ngày Hồ Chí Minh đọc Tuyên ngôn Độc lập?",
+    "answers": [
+      "3/2/1930",
+      "19/8/1945",
+      "30/4/1975",
+      "2/9/1945"
+    ],
+    "correct": 3,
+    "explanation": "Ngày 2/9/1945 tại Quảng trường Ba Đình.",
+    "difficulty": "easy",
+    "category": "lich-su",
+    "source": "Tuyên ngôn Độc lập 1945"
+  },
+  {
+    "id": 10,
+    "question": "Theo Hồ Chí Minh, người cán bộ phải có đức tính quan trọng nhất nào?",
+    "answers": [
+      "Chí công vô tư",
+      "Có tài hùng biện",
+      "Có học thức cao",
+      "Thông minh lanh lợi"
+    ],
+    "correct": 0,
+    "explanation": "Chí công vô tư là phẩm chất quan trọng nhất với cán bộ cách mạng.",
+    "difficulty": "medium",
+    "category": "dao-duc",
+    "source": "Hồ Chí Minh về xây dựng Đảng"
+  },
+  {
+    "id": 11,
+    "question": "Hồ Chí Minh qua đời năm nào?",
+    "answers": [
+      "1969",
+      "1968",
+      "1970",
+      "1975"
+    ],
+    "correct": 0,
+    "explanation": "Người qua đời ngày 2/9/1969 tại Hà Nội.",
+    "difficulty": "easy",
+    "category": "tieu-su",
+    "source": "Tiểu sử Hồ Chí Minh"
+  },
+  {
+    "id": 12,
+    "question": "Tinh thần quốc tế của Hồ Chí Minh thể hiện qua câu nói nào?",
+    "answers": [
+      "Bốn phương vô sản đều là anh em",
+      "Đoàn kết, đoàn kết, đại đoàn kết",
+      "Không có gì quý hơn độc lập tự do",
+      "Dân ta phải biết sử ta"
+    ],
+    "correct": 0,
+    "explanation": "Câu 'Bốn phương vô sản đều là anh em' thể hiện tinh thần quốc tế trong sáng.",
+    "difficulty": "medium",
+    "category": "quoc-te",
+    "source": "Hồ Chí Minh Toàn tập"
+  },
+  {
+    "id": 13,
+    "question": "Phương pháp tu dưỡng đạo đức Hồ Chí Minh nhấn mạnh?",
+    "answers": [
+      "Suy nghĩ nhiều là đủ",
+      "Nói đi đôi với làm, nêu gương",
+      "Chỉ cần học thuộc lòng",
+      "Chỉ cần có lòng tốt"
+    ],
+    "correct": 1,
+    "explanation": "Người nói: 'Một tấm gương sống còn có giá trị hơn một trăm bài diễn văn'.",
+    "difficulty": "medium",
+    "category": "dao-duc",
+    "source": "Hồ Chí Minh Toàn tập"
+  },
+  {
+    "id": 14,
+    "question": "Theo Hồ Chí Minh, con người là gì trong cách mạng?",
+    "answers": [
+      "Nguồn lực thứ yếu sau kinh tế",
+      "Vốn quý nhất, vừa mục tiêu vừa động lực",
+      "Một yếu tố phụ thuộc hoàn cảnh",
+      "Kết quả của khoa học"
+    ],
+    "correct": 1,
+    "explanation": "Người khẳng định con người là vốn quý nhất, vừa mục tiêu vừa động lực.",
+    "difficulty": "easy",
+    "category": "con-nguoi",
+    "source": "Hồ Chí Minh Toàn tập"
+  },
+  {
+    "id": 15,
+    "question": "Hồ Chí Minh coi học tập có vai trò như thế nào?",
+    "answers": [
+      "Học để làm việc, làm người, làm cán bộ",
+      "Học để có bằng cấp",
+      "Học để hơn người",
+      "Học để thi đỗ"
+    ],
+    "correct": 0,
+    "explanation": "Người khẳng định học tập để làm việc, làm người, làm cán bộ, phục vụ nhân dân.",
+    "difficulty": "easy",
+    "category": "giao-duc",
+    "source": "Hồ Chí Minh về giáo dục"
+  },
+  {
+    "id": 16,
+    "question": "Theo Hồ Chí Minh, muốn giải phóng văn hóa thì trước hết phải làm gì?",
+    "answers": [
+      "Giải phóng dân tộc và giải phóng xã hội",
+      "Phát triển công nghiệp nặng",
+      "Mở rộng thương mại quốc tế",
+      "Tăng trưởng kinh tế thị trường"
+    ],
+    "correct": 0,
+    "explanation": "Người cho rằng giải phóng dân tộc, giải phóng xã hội là điều kiện để văn hóa phát triển.",
+    "difficulty": "medium",
+    "category": "van-hoa",
+    "source": "Hồ Chí Minh Toàn tập"
+  },
+  {
+    "id": 17,
+    "question": "Người cán bộ cách mạng theo Hồ Chí Minh phải lấy cái gì làm cốt cán?",
+    "answers": [
+      "Tài năng",
+      "Đạo đức",
+      "Tri thức",
+      "Kinh nghiệm"
+    ],
+    "correct": 1,
+    "explanation": "Hồ Chí Minh khẳng định: cán bộ phải lấy đạo đức làm cốt cán.",
+    "difficulty": "easy",
+    "category": "dao-duc",
+    "source": "Hồ Chí Minh Toàn tập"
+  },
+  {
+    "id": 18,
+    "question": "Theo Hồ Chí Minh, văn nghệ sĩ là ai trên mặt trận văn hóa?",
+    "answers": [
+      "Nhà nghiên cứu",
+      "Người sáng tác tự do",
+      "Chiến sĩ",
+      "Người tổ chức"
+    ],
+    "correct": 2,
+    "explanation": "Người coi văn nghệ sĩ là chiến sĩ trên mặt trận văn hóa, ngòi bút là vũ khí.",
+    "difficulty": "medium",
+    "category": "van-hoa",
+    "source": "Hồ Chí Minh Toàn tập"
+  },
+  {
+    "id": 19,
+    "question": "Một trong những nguyên tắc rèn luyện đạo đức cách mạng là gì?",
+    "answers": [
+      "Nói đi đôi với làm",
+      "Chỉ cần hô khẩu hiệu",
+      "Tập trung vào tài năng",
+      "Đề cao cá nhân"
+    ],
+    "correct": 0,
+    "explanation": "Người nhấn mạnh nguyên tắc nói đi đôi với làm, nêu gương đạo đức.",
+    "difficulty": "easy",
+    "category": "dao-duc",
+    "source": "Hồ Chí Minh Toàn tập"
+  },
+  {
+    "id": 20,
+    "question": "Trong Di chúc, Hồ Chí Minh đặt vấn đề gì lên hàng đầu?",
+    "answers": [
+      "Công việc đối với con người",
+      "Xây dựng quân đội hùng mạnh",
+      "Mở rộng hợp tác quốc tế",
+      "Phát triển kinh tế thị trường"
+    ],
+    "correct": 0,
+    "explanation": "Trong Di chúc, Người nhấn mạnh trước hết là công việc đối với con người.",
+    "difficulty": "easy",
+    "category": "con-nguoi",
+    "source": "Di chúc Hồ Chí Minh"
+  },
+  {
+    "id": 21,
+    "question": "Hồ Chí Minh coi văn hóa là gì trong sự nghiệp cách mạng?",
+    "answers": [
+      "Mục tiêu và động lực",
+      "Phương tiện giải trí",
+      "Phần phụ của chính trị",
+      "Yếu tố trang trí"
+    ],
+    "correct": 0,
+    "explanation": "Văn hóa vừa là mục tiêu, vừa là động lực của cách mạng.",
+    "difficulty": "medium",
+    "category": "van-hoa",
+    "source": "Hồ Chí Minh Toàn tập"
+  },
+  {
+    "id": 22,
+    "question": "Hồ Chí Minh đã ví đạo đức của người cách mạng như thế nào?",
+    "answers": [
+      "Nguồn của sông, gốc của cây",
+      "Ánh sáng của mặt trời",
+      "Dòng chảy của lịch sử",
+      "Ngọn lửa trong đêm"
+    ],
+    "correct": 0,
+    "explanation": "Người ví đạo đức như nguồn của sông, gốc của cây.",
+    "difficulty": "easy",
+    "category": "dao-duc",
+    "source": "Hồ Chí Minh Toàn tập"
+  },
+  {
+    "id": 23,
+    "question": "Hồ Chí Minh khẳng định học để làm gì?",
+    "answers": [
+      "Học để làm người, làm việc, làm cán bộ",
+      "Học để lấy bằng cấp",
+      "Học để thi cử",
+      "Học để nổi tiếng"
+    ],
+    "correct": 0,
+    "explanation": "Người khẳng định học để làm người, làm việc, làm cán bộ, phục vụ nhân dân.",
+    "difficulty": "easy",
+    "category": "giao-duc",
+    "source": "Hồ Chí Minh về giáo dục"
+  },
+  {
+    "id": 24,
+    "question": "Theo Hồ Chí Minh, tinh thần quốc tế trong sáng yêu cầu gì?",
+    "answers": [
+      "Đoàn kết với vô sản thế giới và các dân tộc bị áp bức",
+      "Chỉ quan tâm lợi ích quốc gia",
+      "Theo đuổi bá quyền dân tộc",
+      "Đặt lợi ích cá nhân lên trên hết"
+    ],
+    "correct": 0,
+    "explanation": "Người yêu cầu đoàn kết với giai cấp vô sản, các dân tộc bị áp bức, nhân dân tiến bộ toàn cầu.",
+    "difficulty": "medium",
+    "category": "quoc-te",
+    "source": "Hồ Chí Minh Toàn tập"
+  },
+  {
+    "id": 25,
+    "question": "Câu nào KHÔNG phải là chuẩn mực đạo đức cách mạng Hồ Chí Minh nêu?",
+    "answers": [
+      "Trung với nước, hiếu với dân",
+      "Tinh thần quốc tế trong sáng",
+      "Sống xa hoa, hưởng thụ",
+      "Cần, kiệm, liêm, chính, chí công vô tư"
+    ],
+    "correct": 2,
+    "explanation": "Hồ Chí Minh phê phán lối sống xa hoa, coi đó là vô đạo đức.",
+    "difficulty": "hard",
+    "category": "dao-duc",
+    "source": "Hồ Chí Minh Toàn tập"
+  },
+  {
+    "id": 26,
+    "question": "Một dân tộc biết cần, kiệm, liêm chính sẽ như thế nào?",
+    "answers": [
+      "Giàu vật chất, mạnh tinh thần, văn minh tiến bộ",
+      "Khó phát triển bền vững",
+      "Chỉ mạnh về vật chất",
+      "Chỉ giàu về tinh thần"
+    ],
+    "correct": 0,
+    "explanation": "Người nhấn mạnh một dân tộc biết cần, kiệm, liêm chính sẽ giàu và văn minh.",
+    "difficulty": "medium",
+    "category": "dao-duc",
+    "source": "Hồ Chí Minh Toàn tập"
+  },
+  {
+    "id": 27,
+    "question": "Nguyên tắc nào gắn việc xây dựng giá trị mới với chống biểu hiện xấu?",
+    "answers": [
+      "Tu dưỡng đạo đức suốt đời",
+      "Xây đi đôi với chống",
+      "Nói đi đôi với làm",
+      "Tập thể lãnh đạo, cá nhân phụ trách"
+    ],
+    "correct": 1,
+    "explanation": "Người nhấn mạnh xây dựng chuẩn mực mới phải đi đôi với chống cái xấu.",
+    "difficulty": "easy",
+    "category": "dao-duc",
+    "source": "Hồ Chí Minh Toàn tập"
+  },
+  {
+    "id": 28,
+    "question": "Hồ Chí Minh nhấn mạnh việc học tập suốt đời qua câu nào?",
+    "answers": [
+      "Ngọc càng mài càng sáng, vàng càng luyện càng trong",
+      "Học, học nữa, học mãi",
+      "Không thầy đố mày làm nên",
+      "Tri thức là sức mạnh"
+    ],
+    "correct": 0,
+    "explanation": "Người ví việc tu dưỡng, học tập liên tục như ngọc càng mài càng sáng.",
+    "difficulty": "medium",
+    "category": "giao-duc",
+    "source": "Hồ Chí Minh Toàn tập"
+  },
+  {
+    "id": 29,
+    "question": "Theo Hồ Chí Minh, nghệ thuật chân chính nhằm mục đích gì?",
+    "answers": [
+      "Phục vụ nhân dân",
+      "Giải trí xa hoa",
+      "Thể hiện cá nhân nghệ sĩ",
+      "Làm giàu cho một số ít người"
+    ],
+    "correct": 0,
+    "explanation": "Người nhấn mạnh nghệ thuật phải phục vụ nhân dân, phụng sự Tổ quốc.",
+    "difficulty": "easy",
+    "category": "van-hoa",
+    "source": "Hồ Chí Minh Toàn tập"
+  },
+  {
+    "id": 30,
+    "question": "Hồ Chí Minh đã khẳng định sức mạnh đoàn kết như thế nào?",
+    "answers": [
+      "Trong bầu trời không gì quý bằng nhân dân, trong thế giới không gì mạnh bằng đoàn kết",
+      "Đoàn kết để vượt qua khó khăn",
+      "Đoàn kết tạo nên sức mạnh văn hóa",
+      "Đoàn kết chỉ cần trong chiến tranh"
+    ],
+    "correct": 0,
+    "explanation": "Câu nói nổi tiếng của Hồ Chí Minh về sức mạnh đại đoàn kết dân tộc.",
+    "difficulty": "medium",
+    "category": "con-nguoi",
+    "source": "Hồ Chí Minh Toàn tập"
+  },
+  {
+    "id": 31,
+    "question": "Theo Hồ Chí Minh, muốn xây dựng chủ nghĩa xã hội thì trước hết cần có gì?",
+    "answers": [
+      "Con người xã hội chủ nghĩa",
+      "Máy móc hiện đại",
+      "Tài nguyên thiên nhiên",
+      "Hệ thống chính trị mạnh"
+    ],
+    "correct": 0,
+    "explanation": "Người nhấn mạnh phải xây dựng con người xã hội chủ nghĩa trước tiên.",
+    "difficulty": "medium",
+    "category": "con-nguoi",
+    "source": "Hồ Chí Minh Toàn tập"
+  },
+  {
+    "id": 32,
+    "question": "Theo Hồ Chí Minh, đức và tài trong con người có mối quan hệ thế nào?",
+    "answers": [
+      "Đức là gốc, tài phải đi đôi với đức",
+      "Tài quan trọng hơn đức",
+      "Đức quan trọng hơn tài, tài không cần",
+      "Đức và tài tách biệt"
+    ],
+    "correct": 0,
+    "explanation": "Người nhấn mạnh đức và tài phải thống nhất, trong đó đức là gốc.",
+    "difficulty": "medium",
+    "category": "dao-duc",
+    "source": "Hồ Chí Minh Toàn tập"
+  },
+  {
+    "id": 33,
+    "question": "Văn hóa đời sống mà Hồ Chí Minh đề cập yêu cầu gì?",
+    "answers": [
+      "Siêng năng, ngăn nắp, có tinh thần trách nhiệm",
+      "Ăn ở xa hoa, tiện nghi",
+      "Chỉ chú trọng hình thức",
+      "Làm việc tùy hứng"
+    ],
+    "correct": 0,
+    "explanation": "Người nhấn mạnh đời sống văn hóa phải siêng năng, có kỷ luật, có trách nhiệm.",
+    "difficulty": "medium",
+    "category": "van-hoa",
+    "source": "Hồ Chí Minh Toàn tập"
+  },
+  {
+    "id": 34,
+    "question": "Câu nói 'Một tấm gương sống còn có giá trị hơn trăm bài diễn văn' thể hiện nguyên tắc nào?",
+    "answers": [
+      "Xây đi đôi với chống",
+      "Nói đi đôi với làm",
+      "Tu dưỡng đạo đức suốt đời",
+      "Học đi đôi với hành"
+    ],
+    "correct": 1,
+    "explanation": "Nguyên tắc nói đi đôi với làm, nêu gương đạo đức.",
+    "difficulty": "easy",
+    "category": "dao-duc",
+    "source": "Hồ Chí Minh Toàn tập"
+  },
+  {
+    "id": 35,
+    "question": "Theo Hồ Chí Minh, giáo dục phải dạy cho học trò điều gì cốt yếu?",
+    "answers": [
+      "Yêu nước, thương nòi, tự lập, tự cường",
+      "Giỏi ngoại ngữ",
+      "Thành thạo toán học",
+      "Kỹ năng công nghệ"
+    ],
+    "correct": 0,
+    "explanation": "Người coi trọng dạy học trò yêu nước, thương nòi, có chí tự lập, tự cường.",
+    "difficulty": "medium",
+    "category": "giao-duc",
+    "source": "Hồ Chí Minh về giáo dục"
+  },
+  {
+    "id": 36,
+    "question": "Theo Hồ Chí Minh, văn hóa phải đi sâu vào đâu?",
+    "answers": [
+      "Tâm lý quốc dân, sửa đổi thói hư tật xấu",
+      "Kỹ thuật sản xuất",
+      "Nhu cầu giải trí",
+      "Nền kinh tế thị trường"
+    ],
+    "correct": 0,
+    "explanation": "Người nhấn mạnh văn hóa phải đi sâu vào tâm lý quốc dân, sửa đổi thói hư tật xấu.",
+    "difficulty": "medium",
+    "category": "van-hoa",
+    "source": "Hồ Chí Minh Toàn tập"
+  },
+  {
+    "id": 37,
+    "question": "Theo Hồ Chí Minh, thương yêu con người phải bắt đầu từ đâu?",
+    "answers": [
+      "Công việc đối với con người",
+      "Phát triển kinh tế",
+      "Học tập kiến thức",
+      "Tổ chức chính trị"
+    ],
+    "correct": 0,
+    "explanation": "Người nhấn mạnh phải thương yêu con người, trước hết từ công việc hàng ngày.",
+    "difficulty": "medium",
+    "category": "dao-duc",
+    "source": "Hồ Chí Minh Toàn tập"
+  },
+  {
+    "id": 38,
+    "question": "Hồ Chí Minh coi văn hóa gắn liền với điều gì?",
+    "answers": [
+      "Lao động sản xuất",
+      "Giải trí hiện đại",
+      "Trang trí lễ hội",
+      "Sở thích cá nhân"
+    ],
+    "correct": 0,
+    "explanation": "Người khẳng định văn hóa phải gắn liền với lao động sản xuất.",
+    "difficulty": "easy",
+    "category": "van-hoa",
+    "source": "Hồ Chí Minh Toàn tập"
+  },
+  {
+    "id": 39,
+    "question": "Theo Hồ Chí Minh, văn nghệ phải làm cho mọi người có tinh thần gì?",
+    "answers": [
+      "Vì nước quên mình, vì lợi ích chung",
+      "Hưởng thụ nghệ thuật thuần túy",
+      "Chạy theo thị hiếu cá nhân",
+      "Đề cao cá nhân nghệ sĩ"
+    ],
+    "correct": 0,
+    "explanation": "Người yêu cầu văn nghệ phải bồi dưỡng tinh thần vì nước quên mình, vì lợi ích chung.",
+    "difficulty": "medium",
+    "category": "van-hoa",
+    "source": "Hồ Chí Minh Toàn tập"
+  },
+  {
+    "id": 40,
+    "question": "Hồ Chí Minh ví việc tu dưỡng đạo đức như thế nào?",
+    "answers": [
+      "Ngọc càng mài càng sáng, vàng càng luyện càng trong",
+      "Như ánh nắng mặt trời",
+      "Như ngọn gió thổi qua",
+      "Như cơn mưa mùa hạ"
+    ],
+    "correct": 0,
+    "explanation": "Người ví đạo đức như ngọc mài càng sáng, vàng luyện càng trong.",
+    "difficulty": "easy",
+    "category": "dao-duc",
+    "source": "Hồ Chí Minh Toàn tập"
+  },
+  {
+    "id": 41,
+    "question": "Theo Hồ Chí Minh, văn hóa phải phục vụ ai?",
+    "answers": [
+      "Nhân dân",
+      "Nhà cầm quyền",
+      "Người giàu",
+      "Người sáng tác"
+    ],
+    "correct": 0,
+    "explanation": "Văn hóa phải thiết thực phục vụ nhân dân, nâng cao đời sống tinh thần.",
+    "difficulty": "easy",
+    "category": "van-hoa",
+    "source": "Hồ Chí Minh Toàn tập"
+  },
+  {
+    "id": 42,
+    "question": "Theo Hồ Chí Minh, 'Đạo đức cách mạng không phải trên trời sa xuống' mà có được từ đâu?",
+    "answers": [
+      "Đấu tranh, rèn luyện bền bỉ hằng ngày",
+      "Được trời ban sẵn",
+      "Có sẵn trong bản năng",
+      "Do học thuộc kinh điển"
+    ],
+    "correct": 0,
+    "explanation": "Người nhấn mạnh đạo đức do rèn luyện, phấn đấu hằng ngày mà nên.",
+    "difficulty": "medium",
+    "category": "dao-duc",
+    "source": "Hồ Chí Minh Toàn tập"
+  },
+  {
+    "id": 43,
+    "question": "Hồ Chí Minh nhấn mạnh vai trò của nhân dân như thế nào?",
+    "answers": [
+      "Trong bầu trời không gì quý bằng nhân dân",
+      "Nhân dân là giai cấp phụ thuộc",
+      "Nhân dân chỉ là lực lượng thứ yếu",
+      "Nhân dân chỉ có vai trò lao động"
+    ],
+    "correct": 0,
+    "explanation": "Câu nói khẳng định nhân dân là gốc, là sức mạnh quyết định.",
+    "difficulty": "easy",
+    "category": "con-nguoi",
+    "source": "Hồ Chí Minh Toàn tập"
+  },
+  {
+    "id": 44,
+    "question": "Hồ Chí Minh coi trọng điều gì trong xây dựng Đảng?",
+    "answers": [
+      "Đạo đức cách mạng",
+      "Chiến lược kinh tế",
+      "Tài chính vững mạnh",
+      "Địa vị chính trị"
+    ],
+    "correct": 0,
+    "explanation": "Người nhấn mạnh phải xây dựng Đảng vững mạnh về đạo đức.",
+    "difficulty": "medium",
+    "category": "dao-duc",
+    "source": "Hồ Chí Minh về xây dựng Đảng"
+  },
+  {
+    "id": 45,
+    "question": "Theo Hồ Chí Minh, vai trò của văn hóa chính trị là gì?",
+    "answers": [
+      "Soi đường cho quốc dân",
+      "Trang trí cho chính quyền",
+      "Tạo hình ảnh bên ngoài",
+      "Chỉ phục vụ giai cấp thống trị"
+    ],
+    "correct": 0,
+    "explanation": "Văn hóa chính trị có vai trò soi đường cho quốc dân đi.",
+    "difficulty": "medium",
+    "category": "van-hoa",
+    "source": "Hồ Chí Minh Toàn tập"
+  },
+  {
+    "id": 46,
+    "question": "Theo Hồ Chí Minh, phẩm chất bao trùm của người cách mạng là gì?",
+    "answers": [
+      "Trung với nước, hiếu với dân",
+      "Có học thức cao",
+      "Giỏi lãnh đạo",
+      "Khéo ứng xử"
+    ],
+    "correct": 0,
+    "explanation": "Trung với nước, hiếu với dân là phẩm chất bao trùm nhất.",
+    "difficulty": "easy",
+    "category": "dao-duc",
+    "source": "Hồ Chí Minh Toàn tập"
+  },
+  {
+    "id": 47,
+    "question": "Theo Hồ Chí Minh, văn hóa phải tiếp thu điều gì?",
+    "answers": [
+      "Tinh hoa văn hóa nhân loại",
+      "Chỉ giữ truyền thống cũ",
+      "Chỉ học phương Tây",
+      "Chỉ dựa vào Á Đông"
+    ],
+    "correct": 0,
+    "explanation": "Người khẳng định phải tiếp thu tinh hoa văn hóa nhân loại, chọn cái hay cái tốt.",
+    "difficulty": "medium",
+    "category": "van-hoa",
+    "source": "Hồ Chí Minh Toàn tập"
+  },
+  {
+    "id": 48,
+    "question": "Câu nói 'Không có gì quý hơn độc lập tự do' được Hồ Chí Minh tuyên bố trong hoàn cảnh nào?",
+    "answers": [
+      "Kháng chiến chống Mỹ",
+      "Kháng chiến chống Pháp",
+      "Khai sinh nước Việt Nam Dân chủ Cộng hòa",
+      "Cải cách ruộng đất"
+    ],
+    "correct": 0,
+    "explanation": "Người tuyên bố câu này trong thời kỳ kháng chiến chống Mỹ.",
+    "difficulty": "medium",
+    "category": "lich-su",
+    "source": "Lời kêu gọi toàn quốc kháng chiến"
+  },
+  {
+    "id": 49,
+    "question": "Theo Hồ Chí Minh, xây dựng con người toàn diện gồm những yếu tố nào?",
+    "answers": [
+      "Vừa 'hồng' vừa 'chuyên'",
+      "Chỉ hồng, không chuyên",
+      "Chỉ chuyên, không hồng",
+      "Chỉ cần có sức khỏe"
+    ],
+    "correct": 0,
+    "explanation": "Người yêu cầu xây dựng con người vừa có đạo đức (hồng) vừa có năng lực (chuyên).",
+    "difficulty": "medium",
+    "category": "con-nguoi",
+    "source": "Hồ Chí Minh Toàn tập"
+  },
+  {
+    "id": 50,
+    "question": "Theo Hồ Chí Minh, việc tu dưỡng đạo đức phải được tiến hành như thế nào?",
+    "answers": [
+      "Suốt đời, kiên trì, bền bỉ",
+      "Chỉ trong thời trẻ",
+      "Khi có chức vụ mới cần",
+      "Chỉ khi học lý luận"
+    ],
+    "correct": 0,
+    "explanation": "Người nhấn mạnh tu dưỡng đạo đức là việc suốt đời, liên tục, bền bỉ.",
+    "difficulty": "medium",
+    "category": "dao-duc",
+    "source": "Hồ Chí Minh Toàn tập"
+  }
+]
+
+

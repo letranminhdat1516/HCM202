@@ -1,0 +1,56 @@
+.case-item{
+  padding:12px;
+  margin:8px 0;
+  border:1px solid #ddd;
+  border-radius:8px;
+  cursor:pointer;
+  transition:background 0.2s;
+}
+
+.case-item:hover{
+  background:#f0f0f0;
+  border-color:var(--brand);
+}
+
+#search{
+  width:100%;
+  padding:8px;
+  border-radius:8px;
+  border:1px solid #ddd;
+  margin-bottom:12px;
+}
+
+#case-detail h4{
+  color:var(--brand);
+  margin-bottom:1rem;
+}
+
+#case-detail ul{
+  padding-left:1.5rem;
+}
+
+#case-detail li{
+  margin-bottom:0.5rem;
+}
+
+#commit-form{
+  display:grid;
+  gap:8px;
+}
+
+#commit-form input{
+  padding:8px;
+  border:1px solid #ddd;
+  border-radius:8px;
+}
+
+#commit-list .card{
+  margin-bottom:8px;
+  padding:12px;
+  background:#fff;
+}
+
+#commit-list h4{
+  margin-top:0;
+  color:var(--brand);
+}

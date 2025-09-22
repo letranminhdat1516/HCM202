@@ -1,0 +1,92 @@
+[
+  {
+    "id": "T3",
+    "title": "Hồ Chí Minh toàn tập - Tập 3",
+    "year": "2011",
+    "publisher": "NXB Chính trị quốc gia Sự thật",
+    "author": "Hồ Chí Minh",
+    "description": "Các bài viết về văn hóa, giáo dục và con người (1930-1945)",
+    "url": "https://hochiminh.vn/book/tac-pham-cua-ho-chi-minh/ho-chi-minh-toan-tap/ho-chi-minh-toan-tap-tap-3-270"
+  },
+  {
+    "id": "T4",
+    "title": "Hồ Chí Minh toàn tập - Tập 4",
+    "year": "2011",
+    "publisher": "NXB Chính trị quốc gia Sự thật",
+    "author": "Hồ Chí Minh",
+    "description": "Các bài viết về xây dựng nền văn hóa mới (1945-1950)",
+    "url": "https://hochiminh.vn/book/tac-pham-cua-ho-chi-minh/ho-chi-minh-toan-tap/ho-chi-minh-toan-tap-tap-4-271"
+  },
+  {
+    "id": "T5",
+    "title": "Hồ Chí Minh toàn tập - Tập 5",
+    "year": "2011",
+    "publisher": "NXB Chính trị quốc gia Sự thật",
+    "author": "Hồ Chí Minh",
+    "description": "Các bài viết về đạo đức cách mạng và giáo dục con người (1950-1954)",
+    "url": "https://hochiminh.vn/book/tac-pham-cua-ho-chi-minh/ho-chi-minh-toan-tap/ho-chi-minh-toan-tap-tap-5-272"
+  },
+  {
+    "id": "T6",
+    "title": "Hồ Chí Minh toàn tập - Tập 6",
+    "year": "2011",
+    "publisher": "NXB Chính trị quốc gia Sự thật",
+    "author": "Hồ Chí Minh",
+    "description": "Các bài viết về chủ nghĩa quốc tế và đoàn kết (1954-1958)",
+    "url": "https://hochiminh.vn/book/tac-pham-cua-ho-chi-minh/ho-chi-minh-toan-tap/ho-chi-minh-toan-tap-tap-6-273"
+  },
+  {
+    "id": "T7",
+    "title": "Hồ Chí Minh toàn tập - Tập 7",
+    "year": "2011",
+    "publisher": "NXB Chính trị quốc gia Sự thật",
+    "author": "Hồ Chí Minh",
+    "description": "Các bài viết về xây dựng con người mới (1958-1962)",
+    "url": "https://hochiminh.vn/book/tac-pham-cua-ho-chi-minh/ho-chi-minh-toan-tap/ho-chi-minh-toan-tap-tap-7-274"
+  },
+  {
+    "id": "T8",
+    "title": "Hồ Chí Minh toàn tập - Tập 8",
+    "year": "2011",
+    "publisher": "NXB Chính trị quốc gia Sự thật",
+    "author": "Hồ Chí Minh",
+    "description": "Các bài viết về tu dưỡng đạo đức (1962-1965)",
+    "url": "https://hochiminh.vn/book/tac-pham-cua-ho-chi-minh/ho-chi-minh-toan-tap/ho-chi-minh-toan-tap-tap-8-275"
+  },
+  {
+    "id": "T10",
+    "title": "Hồ Chí Minh toàn tập - Tập 10",
+    "year": "2011",
+    "publisher": "NXB Chính trị quốc gia Sự thật",
+    "author": "Hồ Chí Minh",
+    "description": "Các bài viết về vai trò của nhân dân trong cách mạng (1965-1969)",
+    "url": "https://hochiminh.vn/book/tac-pham-cua-ho-chi-minh/ho-chi-minh-toan-tap/ho-chi-minh-toan-tap-tap-10-277"
+  },
+  {
+    "id": "T11",
+    "title": "Hồ Chí Minh toàn tập - Tập 11",
+    "year": "2011",
+    "publisher": "NXB Chính trị quốc gia Sự thật",
+    "author": "Hồ Chí Minh",
+    "description": "Các bài viết về xây dựng Đảng và đạo đức cán bộ",
+    "url": "https://hochiminh.vn/book/tac-pham-cua-ho-chi-minh/ho-chi-minh-toan-tap/ho-chi-minh-toan-tap-tap-11-278"
+  },
+  {
+    "id": "UNESCO",
+    "title": "Hồ Chí Minh - Anh hùng giải phóng dân tộc và Nhà văn hóa kiệt xuất",
+    "year": "1987",
+    "publisher": "UNESCO",
+    "author": "UNESCO",
+    "description": "Tuyên bố chính thức của UNESCO ghi nhận đóng góp của Hồ Chí Minh",
+    "url": "https://hvctcand.bocongan.gov.vn/tin-tuc/tin-tuc-khac/ky-niem-35-nam-unesco-vinh-danh-chu-tich-ho-chi-minh-1987-2022-4309"
+  },
+  {
+    "id": "GT2023",
+    "title": "Giáo trình Tư tưởng Hồ Chí Minh",
+    "year": "2023",
+    "publisher": "NXB Chính trị Quốc gia Sự thật",
+    "author": "Bộ Giáo dục và Đào tạo",
+    "description": "Giáo trình chính thức dành cho các trường đại học và cao đẳng",
+    "url": ""
+  }
+]

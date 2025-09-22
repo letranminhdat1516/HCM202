@@ -1,0 +1,67 @@
+[
+  {
+    "id": "C1",
+    "title": "Chi tiêu công xa hoa",
+    "description": "Một đơn vị sử dụng ngân sách nhà nước để mua sắm những vật dụng không cần thiết, tổ chức tiệc tùng xa hoa với tiền công quỹ.",
+    "tags": ["Kiệm", "Liêm", "Chí công vô tư"],
+    "reasoning": "Hành vi này đi ngược lại tinh thần 'Kiệm' - sống tiết kiệm, không lãng phí. Đồng thời vi phạm đức tính 'Chí công vô tư' khi dùng tiền của dân vào mục đích cá nhân hoặc không chính đáng.",
+    "recommendedActions": [
+      "Công khai minh bạch các tiêu chuẩn chi tiêu",
+      "Ưu tiên những nhu cầu thiết yếu phục vụ nhân dân",
+      "Thiết lập cơ chế kiểm soát độc lập trong chi tiêu công",
+      "Giáo dục ý thức tiết kiệm cho cán bộ"
+    ]
+  },
+  {
+    "id": "C2", 
+    "title": "Nhận quà từ đối tác",
+    "description": "Một cán bộ nhận quà có giá trị lớn từ doanh nghiệp trong quá trình đàm phán hợp đồng, với lý do 'thể hiện tình cảm'.",
+    "tags": ["Liêm", "Chí công vô tư"],
+    "reasoning": "Việc nhận quà trong công việc có thể tạo ra xung đột lợi ích, ảnh hưởng đến tính khách quan trong quyết định. Đây là vi phạm đức tính 'Liêm' - thanh liêm, không tham ô.",
+    "recommendedActions": [
+      "Từ chối nhận quà và giải thích rõ ràng lý do",
+      "Ghi nhận và báo cáo với cấp trên về việc được tặng quà",
+      "Thiết lập chính sách rõ ràng về việc nhận quà tặng",
+      "Tuyên truyền về văn hóa làm việc liêm khiết"
+    ]
+  },
+  {
+    "id": "C3",
+    "title": "Thái độ hách dịch với dân",
+    "description": "Cán bộ xử lý hồ sơ có thái độ khó khăn, hách dịch, yêu cầu người dân đi lại nhiều lần cho một thủ tục đơn giản.",
+    "tags": ["Cần", "Trung với nước, hiếu với dân"],
+    "reasoning": "Thái độ này vi phạm nguyên tắc 'Cần' - siêng năng phục vụ nhân dân, và đi ngược lại tinh thần 'hiếu với dân' - yêu thương, phục vụ tận tâm người dân.",
+    "recommendedActions": [
+      "Đào tạo kỹ năng giao tiếp và thái độ phục vụ",
+      "Thiết lập quy trình xử lý rõ ràng, thuận tiện",
+      "Tăng cường giám sát, đánh giá chất lượng phục vụ",
+      "Xây dựng văn hóa 'dân là gốc' trong cơ quan"
+    ]
+  },
+  {
+    "id": "C4",
+    "title": "Bảo vệ môi trường vs lợi ích kinh tế",
+    "description": "Địa phương phải quyết định giữa việc thu hút đầu tư một dự án có tiềm năng gây ô nhiễm nhưng mang lại nhiều việc làm và thu nhập.",
+    "tags": ["Chí công vô tư", "Trung với nước"],
+    "reasoning": "Đây là tình huống cân bằng giữa lợi ích trước mắt và lâu dài. Cần thể hiện tinh thần 'Chí công vô tư' để đưa ra quyết định vì lợi ích chung, lâu dài của đất nước và nhân dân.",
+    "recommendedActions": [
+      "Đánh giá tác động môi trường một cách khách quan",
+      "Tìm kiếm các giải pháp công nghệ xanh, thân thiện môi trường",
+      "Tham vấn ý kiến rộng rãi từ cộng đồng và chuyên gia",
+      "Ưu tiên phát triển bền vững cho thế hệ tương lai"
+    ]
+  },
+  {
+    "id": "C5",
+    "title": "Xung đột giữa tình và lý",
+    "description": "Lãnh đạo phải quyết định về việc kỷ luật một cán bộ là bạn thân do vi phạm quy định, trong khi người này đang gặp khó khăn gia đình.",
+    "tags": ["Chính", "Chí công vô tư"],
+    "reasoning": "Tình huống thể hiện sự xung đột giữa tình cảm cá nhân và nguyên tắc. Đức tính 'Chính' - công minh, đúng đắn yêu cầu xử lý theo quy định, không thiên vị.",
+    "recommendedActions": [
+      "Tuân thủ nguyên tắc pháp luật và quy định",
+      "Tách bạch giữa công việc và tình cảm cá nhân",
+      "Tìm cách hỗ trợ về mặt nhân đạo trong khuôn khổ cho phép",
+      "Nêu gương về tính nguyên tắc trong lãnh đạo"
+    ]
+  }
+]

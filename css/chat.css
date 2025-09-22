@@ -1,0 +1,280 @@
+/* Coze Introduction Section */
+.coze-intro {
+  margin-bottom: 3rem;
+}
+
+.intro-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem 0;
+  background: linear-gradient(135deg, var(--bg-secondary) 0%, #f8f9fa 100%);
+  border-radius: 12px;
+  border: 1px solid #e9ecef;
+}
+
+.intro-header h2 {
+  color: var(--brand);
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.intro-subtitle {
+  color: var(--muted);
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.intro-content {
+  display: grid;
+  gap: 2rem;
+}
+
+.intro-section {
+  margin-bottom: 1.5rem;
+}
+
+.intro-section h3 {
+  color: var(--brand);
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border-left: 4px solid var(--brand);
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.intro-section h3::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: linear-gradient(to bottom, var(--brand), var(--gold));
+}
+
+.purpose-list {
+  padding-left: 1.5rem;
+  line-height: 1.7;
+}
+
+.purpose-list li {
+  margin-bottom: 0.75rem;
+}
+
+/* Role Section Styling */
+.role-section {
+  background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
+  padding: 2rem;
+  border-radius: 16px;
+  border: 1px solid #e9ecef;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.role-card, .skills-card, .constraints-card {
+  background: white;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 12px;
+  border: 1px solid #e9ecef;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+}
+
+.role-card:hover, .skills-card:hover, .constraints-card:hover {
+  box-shadow: 0 4px 20px rgba(220, 20, 60, 0.1);
+  transform: translateY(-2px);
+}
+
+.role-card h4, .skills-card h4, .constraints-card h4 {
+  color: var(--brand);
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.skill-item {
+  margin: 1rem 0;
+}
+
+.skill-item h5 {
+  color: var(--fg);
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.skill-item ul, .constraints-card ul {
+  padding-left: 1.5rem;
+  line-height: 1.6;
+}
+
+.skill-item li, .constraints-card li {
+  margin-bottom: 0.4rem;
+}
+
+/* Examples Section */
+.examples-section {
+  background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
+  padding: 2rem;
+  border-radius: 16px;
+  border: 1px solid #e9ecef;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.examples-grid {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.example-item {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid #e9ecef;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.example-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 4px;
+  background: linear-gradient(to bottom, var(--brand), var(--gold));
+  border-radius: 12px 0 0 12px;
+}
+
+.example-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(220, 20, 60, 0.1);
+}
+
+.example-question {
+  color: var(--brand);
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.example-answer {
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Chat Section */
+.chat-section {
+  margin-top: 3rem;
+}
+
+.chat-section h2 {
+  color: var(--brand);
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.chat-section h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(to right, var(--brand), var(--gold));
+}
+
+.chat-placeholder {
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
+  border: 2px dashed #dee2e6;
+  transition: all 0.3s ease;
+}
+
+.chat-placeholder:hover {
+  border-color: var(--brand);
+  background: linear-gradient(145deg, #fff8f8 0%, #f8f9fa 100%);
+}
+
+.placeholder-content {
+  max-width: 400px;
+}
+
+.ai-indicator {
+  display: inline-block;
+  background: var(--brand);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.placeholder-content h3 {
+  color: var(--fg);
+  margin: 1rem 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.placeholder-content p {
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .intro-header h2 {
+    font-size: 1.6rem;
+  }
+  
+  .intro-subtitle {
+    font-size: 1rem;
+  }
+  
+  .examples-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .role-section {
+    padding: 1rem;
+  }
+  
+  .role-card, .skills-card, .constraints-card {
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .examples-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  
+  .intro-content {
+    grid-template-columns: 1fr;
+  }
+}
